@@ -1,0 +1,148 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif;
+}
+
+/* Section 1 styles */
+.sec1con {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.secimg1 {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+      
+}
+
+
+h1, p {
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s; 
+}
+
+
+h1:hover, p:hover {
+    color: #007bff; 
+}
+
+/* Section 2 styles */
+.section1 {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.section2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 20px;
+    transition: transform 0.3s; 
+}
+
+
+.zoom {
+    padding: 50px;
+    background-color: green;
+    transition: transform .2s; 
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    transform: scale(1.3); 
+  }
+
+/* Button styles */
+button {
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Section 2 Card styles */
+.cardsec2 {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 0 20px;
+    text-align: center;
+}
+
+.cardsec2 img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    transition: transform 0.3s; 
+}
+
+/* Zoom effect for card image on hover */
+.cardsec2 img:hover {
+    transform: scale(1.1); 
+}
+
+/* Section 3 styles */
+.section3 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section3 h1 {
+    color: #333;
+    margin-bottom: 20px;
+    transition: color 0.3s; 
+}
+
+/* Hover effect for heading */
+.section3 h1:hover {
+    color: #007bff; 
+}
+.btn{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+    transform: translate(-50%, -50%);
+}
+.btn:hover{
+    color: white;
+    transition-delay:.25s ;
+}
+.back-button{
+    border: 2px solid #007bff;
+    background-color:#007bff ;
+    color: white;
+    margin-left:20px;
+    text-decoration: none;
+    border-radius: 25px;
+}

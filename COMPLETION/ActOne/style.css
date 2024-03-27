@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    margin-top: 5%;
+}
+
+.classLeft {
+    margin-top: 8%;
+    
+}
+.right {
+    width: 10%;
+    height: 20%;
+}
+
+img {
+    width: 1000px;
+    margin-right: 50px;
+ 
+}
+
+p {
+    margin-left: 50px;
+   
+}
+
+.ti {
+    margin-left: 200px;
+}
+
+h1 {
+    margin-left: 200px;
+}
+
+.btn1{
+    margin-left: 50%;
+}
+.btn3 {
+    margin-left: 50%;
+}
+
+.back-button{
+    float: left ;
+    border: 2px solid blue;
+    background-color:blue;
+    color: white;
+    margin-left:100px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 20px;
+} 
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img {
+        width: 80%;
+        margin: 0;
+    }
+
+    .ti,
+    h1,
+    p {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .btn1,
+    .btn3 {
+        margin-left: 0;
+    }
+
+    .back-button {
+        margin-left: 0;
+        margin-top: 20px; /* Adjust margin as per your design */
+    }
+}

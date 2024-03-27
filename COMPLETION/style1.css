@@ -1,0 +1,128 @@
+/* style1.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('222.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; 
+    overflow: hidden; 
+}
+
+nav {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.centered-text {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.ber {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 0; 
+}
+
+.ber:hover {
+    color: #ff7200; 
+}
+
+.reb {
+    font-style: italic;
+    font-size: 40px;
+    color: #ff7200;
+}
+
+.rebreb {
+    color: #f9f1f1;
+    line-height: 1.6; 
+    padding: 10px; 
+    font-family: Arial, sans-serif;
+}
+
+/* Additional styling for the navigation links */
+nav a:hover {
+    color: #ff7200;
+}
+
+.img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/* Styles for individual images */
+.image-container {
+    flex: 0 0 calc(33.33% - 20px); 
+    margin-bottom: 20px;
+    position: relative;
+    text-align: center;
+}
+
+/* Style for image text */
+.img-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: rgb(242, 241, 241);
+    padding: 5px;
+    text-align: center;
+    transition: opacity 0.3s;
+    opacity: 0; 
+}
+
+/* Show text on hover */
+.image-container:hover .img-text {
+    opacity: 1;
+}
+
+/* Style for individual images */
+img {
+    width: 300px; 
+    height: 200px; 
+    object-fit: cover; 
+    transition: transform 0.3s ease; 
+    margin-top: 110px;
+}
+
+/* Hover effect for zooming */
+.image-container:hover img {
+    transform: scale(1.1); 
+    z-index: 1; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); 
+}
+.back-button{
+    float: left ;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    background-color:rgba(0, 0, 0, 0.5);
+    color: white;
+    margin-left:20px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 14px;
+}
+.he1{
+    margin-top: 20px;
+    margin-left: 42.5%;
+}
